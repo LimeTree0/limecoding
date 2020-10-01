@@ -1,73 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Tag</title>
+    <title>LimeCoding</title>
+    <link rel="stylesheet" href="tag.css">
 </head>
+
 <body>
-    <h1><a href="index.html">LimeCoding</a></h1>
-    <h2>tag란?</h2>
-    <p> 
-        HTML은 기본적으로 태그(tag)라는 것으로 이루어져 있습니다. HTML의 tag에는 단락(Paragragh)을 의미하는 p tag, 이미지(image)를 뜻하는 img tag등이 있습니다. 이런 태그들을 통해 문서를 보다 정확하고 보기 쉽게 작성할 수 있는 것입니다.
-    </p>
+    <header>
+        <h1>LimeCoding</h1>
+    </header>
+    <section>
+        <nav>
+            <h2>HTML</h2>
+            <ul>
+                <li><a href="html.html">HTML이란?</a></li>
+                <li><a href="tag.html">HTML 태그의 종류</a></li>
+            </ul>
+            <h2>CSS</h2>
+            <ul>
+                <li>CSS란?</li>
+                <li>CSS 문법 정리</li>
+            </ul>
+            <h2>Javascript</h2>
+            <ul>
+                <li>Javascript란?</li>
+                <li>Javascript 문법 정리</li>
+            </ul>
+        </nav>
+        <main>
+            <h2>tag란?</h2>
+            <p>
+                HTML은 기본적으로 태그(tag)라는 것으로 이루어져 있습니다. HTML의 tag에는 단락(Paragragh)을 의미하는 p tag, 이미지(image)를 뜻하는 img tag등이
+                있습니다. 이런 태그들을 통해 문서를 보다 정확하고 보기 쉽게 작성할 수 있는 것입니다.
+            </p>
 
-    <h2>tag의 구조</h2>
-    <p>
-        tag는 &lt;,&gt;을 이용하여 tag를 작성합니다. 태그에는 opening tag와 closing tag가 있으며 &lt;img&gt;같은 몇몇 태그는 opening tag만 있는 경우도 있습니다.<br>
-        <img src="tagstructure.png" alt="">
-    </p>
+            <h2>tag의 구조</h2>
+            <p>
+                tag는 &lt;,&gt;을 이용하여 tag를 작성합니다. 태그에는 opening tag와 closing tag가 있으며 &lt;img&gt;같은 몇몇 태그는 opening tag만 있는
+                경우도 있습니다.<br>
+                <img src="tagstructure.png" alt="" width="300px" height="150px">
+            </p>
 
-    <h2>tag의 종류</h2>
-    여기 있는 태그의 종류는 써본 태그의 종류입니다.
-    <table border="1">
-        <thead>
-            <tr>
-                <th>태그</th>
-                <th>설명</th>
-            </tr>
-            <tr>
-                <td>&lt;h1&gt;~&lt;h6&gt;</td>
-                <td>글의 제목을 표현하는 태그로 h1부터 순서대로 글자의 크기가 작아집니다.</td>
-            </tr>
-            <tr>
-                <td>&lt;p&gt;</td>
-                <td>단락을 표현하는 태그로 단락이 끝나면 자동으로 줄바꿈이됩니다.</td>
-            </tr>
-            <tr>
-                <td>&lt;head&gt;</td>
-                <td>머리라는 뜻으로 문서의 본내용에는 표시되지 않으나 웹페이지를 표시하는데 필요한 정보를 묶는 태그입니다.</td>
-            </tr>
-            <tr>
-                <td>&lt;body&gt;</td>
-                <td>몸이라는 뜻으로 본문의 내용을 묶는 태그입니다.</td>
-            </tr>
-            <tr>
-                <td>&lt;img&gt;</td>
-                <td>이미지 태그로 이미지를 삽입할 때 쓰는 태그입니다..</td>
-            </tr>
-            <tr>
-                <td>&lt;br&gt;</td>ㅔ
-                <td>줄바꿈을 해주는 태그입니다.</td>
-            </tr>
-            <tr>
-                <td>&lt;a&gt;</td>
-                <td>다른페이지로 넘어가기 위한 링크를 걸어주는 태그입니다.</td>
-            </tr>
-            <tr>
-                <td>&lt;li&gt;</td>
-                <td>리스트 태그로 목록이나 어떠한 리스트를 만들 때 쓰는 태그입니다.주로 &lt;ul&gt;,&lt;ol&gt; 태그랑 같이 쓰여집니다.</td>
-            </tr>
-            <tr>
-                <td>&lt;ol&gt;</td>
-                <td>ordered list로 리스트에 번호를 붙여주는 리스트입니다.</td>
-            </tr>
-            <tr>
-                <td>&lt;ul&gt;</td>
-                <td>unordered list로 순서가 없는 리스트입니다.</td>
-            </tr>
+            <h2>tag의 종류</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>태그</th>
+                        <th>설명</th>
+                    </tr>
+                    <tr>
+                        <td>&lt;h1&gt;~&lt;h6&gt;</td>
+                        <td>글의 제목을 표현하는 태그로 h1부터 순서대로 글자의 크기가 작아집니다.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>단락을 표현하는 태그로 단락이 끝나면 자동으로 줄바꿈이됩니다.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;head&gt;</td>
+                        <td>머리라는 뜻으로 문서의 본내용에는 표시되지 않으나 웹페이지를 표시하는데 필요한 정보를 묶는 태그입니다.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;body&gt;</td>
+                        <td>몸이라는 뜻으로 본문의 내용을 묶는 태그입니다.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;img&gt;</td>
+                        <td>이미지 태그로 이미지를 삽입할 때 쓰는 태그입니다..</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td>줄바꿈을 해주는 태그입니다.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td>다른페이지로 넘어가기 위한 링크를 걸어주는 태그입니다.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;</td>
+                        <td>리스트 태그로 목록이나 어떠한 리스트를 만들 때 쓰는 태그입니다.주로 &lt;ul&gt;,&lt;ol&gt; 태그랑 같이 쓰여집니다.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ol&gt;</td>
+                        <td>ordered list로 리스트에 번호를 붙여주는 리스트입니다.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td>unordered list로 순서가 없는 리스트입니다.</td>
+                    </tr>
 
-        </thead>
-    </table>
-
+                </thead>
+            </table>
+        </main>
+    </section>
 </body>
+
 </html>

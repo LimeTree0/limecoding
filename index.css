@@ -1,0 +1,28 @@
+h1{
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+    padding: 25px;
+    font-size: 1rem;
+}
+body{
+    margin: 0;
+}
+section{
+    display: flex;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid rgba(128, 128, 128, 0.336);
+    font-size: 0.5rem;
+}
+nav ul{
+    width: 6rem;
+}
+nav ul li{
+    list-style-type: none;
+}
+main{
+    padding: 1rem;
+}
